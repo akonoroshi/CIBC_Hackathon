@@ -23,16 +23,16 @@ Some definitions:
 Return two csv files with the doctor visits and doctors ranked according to degree of outlying behavior.
  
 File 1 – A CSV file Outlying providers containing all provider records sorted by Outlier Rank.
-1)     Provider Id
-2)     Outlier Rank (1 being the worst outlier)
+1. Provider Id
+2. Outlier Rank (1 being the worst outlier)
  
 File 2 – A CSV file Outlying visits containing the top 100 outlying visits for each provider type. Entries sorted based on outlier Rank first and then provider type second.
-1)     Family ID
-2)     Family Member ID
-3)     Provider ID
-4)     Date of Service
-5)     Provider Type
-6)     Outlier Rank (1 being the worst outlier)
+1. Family ID
+2. Family Member ID
+3. Provider ID
+4. Date of Service
+5. Provider Type
+6. Outlier Rank (1 being the worst outlier)
 
 ## Notes on the code
 Our team consisted of five students including me. I wrote CIBC_AI_scratch_work.ipynb and File2.ipynb while explore.ipynb was written by my teammates. File2.ipynb was used as a backup in case another approach had failed to complete task 2.
